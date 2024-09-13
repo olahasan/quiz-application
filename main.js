@@ -20,9 +20,9 @@ let firstScreen = document.querySelector(".first-screen");
 let secondScreen = document.querySelector(".second-screen");
 
 readyButton.onclick = function () {
-  console.log(SelectedCategory);
-  console.log(SelectedNumOfQuestions);
-  console.log(SelectedDifficultyLevel);
+  // console.log(SelectedCategory);
+  // console.log(SelectedNumOfQuestions);
+  // console.log(SelectedDifficultyLevel);
 
   if (SelectedCategory && SelectedNumOfQuestions && SelectedDifficultyLevel) {
     errorMessage.style.display = "none";
