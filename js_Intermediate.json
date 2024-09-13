@@ -1,0 +1,138 @@
+[
+  {
+    "title": "What is the difference between '==' and '===' in JS?",
+    "answer_1": "'==' compares both value and type, '===' compares only value.",
+    "answer_2": "'==' compares only value, '===' compares both value and type.",
+    "answer_3": "'==' compares only type, '===' compares only value.",
+    "answer_4": "'==' compares both value and type, '===' compares only type.",
+    "right_answer": "'==' compares only value, '===' compares both value and type."
+  },
+  {
+    "title": "What is the purpose of the 'this' keyword in JS?",
+    "answer_1": "It refers to the global object.",
+    "answer_2": "It refers to the current object.",
+    "answer_3": "It refers to the parent object.",
+    "answer_4": "It refers to the previous object.",
+    "right_answer": "It refers to the current object."
+  },
+  {
+    "title": "What is the difference between 'let' and 'var' in JS?",
+    "answer_1": "'let' is function-scoped, 'var' is block-scoped.",
+    "answer_2": "'let' is block-scoped, 'var' is function-scoped.",
+    "answer_3": "'let' is global-scoped, 'var' is block-scoped.",
+    "answer_4": "'let' is block-scoped, 'var' is global-scoped.",
+    "right_answer": "'let' is block-scoped, 'var' is function-scoped."
+  },
+  {
+    "title": "What is the purpose of the 'async' keyword in JS?",
+    "answer_1": "To declare a function that runs immediately.",
+    "answer_2": "To declare a function that runs synchronously.",
+    "answer_3": "To declare a function that returns a promise.",
+    "answer_4": "To declare a function that does not return a value.",
+    "right_answer": "To declare a function that returns a promise."
+  },
+  {
+    "title": "What is the difference between 'null' and 'undefined' in JS?",
+    "answer_1": "'null'= assigned value, 'undefined'= a variable has been declared but not assigned.",
+    "answer_2": "'null'= a variable has been declared but not assigned,'undefined' is an assigned value.",
+    "answer_3": "'null' is a type of object, 'undefined' is a type of function.",
+    "answer_4": "'null' is a type of function, 'undefined' is a type of object.",
+    "right_answer": "'null'= assigned value, 'undefined'= a variable has been declared but not assigned."
+  },
+  {
+    "title": "What is the purpose of the 'bind' method in JS?",
+    "answer_1": "To create a new object with a specific 'this' value.",
+    "answer_2": "To create a new function with a specific 'this' value.",
+    "answer_3": "To create a new array with a specific 'this' value.",
+    "answer_4": "To create a new string with a specific 'this' value.",
+    "right_answer": "To create a new function with a specific 'this' value."
+  },
+  {
+    "title": "What is the purpose of the 'Promise' object in JS?",
+    "answer_1": "To handle synchronous operations.",
+    "answer_2": "To handle mathematical operations.",
+    "answer_3": "To handle asynchronous operations.",
+    "answer_4": "To handle string operations.",
+    "right_answer": "To handle asynchronous operations."
+  },
+  {
+    "title": "What is the difference between 'map' and 'forEach' methods in JS?",
+    "answer_1": "'map' does not return anything, 'forEach' returns a new array.",
+    "answer_2": "'map' returns a new array, 'forEach' returns a new array.",
+    "answer_3": "'map' does not return anything, 'forEach' does not return anything.",
+    "answer_4": "'map' returns a new array, 'forEach' does not return anything.",
+    "right_answer": "'map' returns a new array, 'forEach' does not return anything."
+  },
+  {
+    "title": "What is the purpose of the 'reduce' method in JS?",
+    "answer_1": "To reduce the size of an array.",
+    "answer_2": "getting in a single output value.",
+    "answer_3": "To filter elements from an array.",
+    "answer_4": "To map elements to a new array.",
+    "right_answer": "getting in a single output value."
+  },
+  {
+    "title": "What is the purpose of the 'fetch' API in JS?",
+    "answer_1": "To fetch elements from the DOM.",
+    "answer_2": "To fetch data from local storage.",
+    "answer_3": "To make network requests similar to XMLHttpRequest.",
+    "answer_4": "To fetch data from cookies.",
+    "right_answer": "To make network requests similar to XMLHttpRequest."
+  },
+  {
+    "title": "What is the purpose of the 'async/await' syntax in JS?",
+    "answer_1": "To write synchronous code that looks asynchronous.",
+    "answer_2": "To handle errors in synchronous code.",
+    "answer_3": "To write asynchronous code that looks synchronous.",
+    "answer_4": "To handle errors in asynchronous code.",
+    "right_answer": "To write asynchronous code that looks synchronous."
+  },
+  {
+    "title": "What is the purpose of the 'Promise.all' method in JS?",
+    "answer_1": "To wait for all promises to be resolved or any to be rejected.",
+    "answer_2": "To wait for the first promise to be resolved.",
+    "answer_3": "To wait for the first promise to be rejected.",
+    "answer_4": "To wait for all promises to be rejected.",
+    "right_answer": "To wait for all promises to be resolved or any to be rejected."
+  },
+  {
+    "title": "What is the purpose of the 'Symbol' type in JS?",
+    "answer_1": "To create unique identifiers for object properties.",
+    "answer_2": "To create unique identifiers for functions.",
+    "answer_3": "To create unique identifiers for arrays.",
+    "answer_4": "To create unique identifiers for strings.",
+    "right_answer": "To create unique identifiers for object properties."
+  },
+  {
+    "title": "What is the purpose of the 'Object.assign' method in JS?",
+    "answer_1": "To copy the values of all enumerable own properties from one or more source objects to a target object.",
+    "answer_2": "To merge two arrays into one.",
+    "answer_3": "To create a new object with the same properties as an existing object.",
+    "answer_4": "To delete properties from an object.",
+    "right_answer": "To copy the values of all enumerable own properties from one or more source objects to a target object."
+  },
+  {
+    "title": "What is the difference between 'setTimeout' and 'setInterval' in JS?",
+    "answer_2": "'setTimeout' executes repeatedly, 'setInterval' executes one time.",
+    "answer_3": "'setTimeout' executes immediately, 'setInterval' executes one time.",
+    "answer_1": "'setTimeout' executes one time, 'setInterval' executes repeatedly.",
+    "answer_4": "'setTimeout' executes after a specified delay, 'setInterval' executes immediately.",
+    "right_answer": "'setTimeout' executes one time, 'setInterval' executes repeatedly."
+  },
+  {
+    "title": "What is the purpose of the 'WeakMap' object in JS?",
+    "answer_1": "To store key-value pairs where the keys are strongly referenced.",
+    "answer_2": "To store key-value pairs where the keys are weakly referenced.",
+    "answer_3": "To store key-value pairs where the values are weakly referenced.",
+    "answer_4": "To store key-value pairs where the values are strongly referenced.",
+    "right_answer": "To store key-value pairs where the keys are weakly referenced."
+  },
+  {
+    "title": "What is the purpose of the 'Set' object in JS?",
+    "answer_1": "To store key-value pairs where the keys are weakly referenced.",
+    "answer_2": "To store unique values of any type, whether primitive values or object references.",
+    "answer_3": "To store key-value pairs where the keys are strongly referenced.",
+    "answer_4": "To store unique keys of any type, whether primitive values or object references.",
+    "right_answer": "To store unique values of any type, whether primitive values or object references."
+  }
+]

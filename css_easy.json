@@ -1,0 +1,234 @@
+[
+  {
+    "title": "Which tag is used to define an internal style sheet?",
+    "answer_1": "<css>",
+    "answer_2": "<script>",
+    "answer_3": "<style>",
+    "answer_4": "<link>",
+    "right_answer": "<style>"
+  },
+  {
+    "title": "Which attribute is used to define inline styles?",
+    "answer_1": "class",
+    "answer_2": "style",
+    "answer_3": "font",
+    "answer_4": "styles",
+    "right_answer": "style"
+  },
+  {
+    "title": "Which is the correct CSS syntax?",
+    "answer_1": "{body;color:black;}",
+    "answer_2": "body:color=black;",
+    "answer_3": "body {color: black;}",
+    "answer_4": "{body:color=black;}",
+    "right_answer": "body {color: black;}"
+  },
+  {
+    "title": "How do you insert a comment in a CSS file?",
+    "answer_1": "// this is a comment",
+    "answer_2": "/* this is a comment */",
+    "answer_3": "// this is a comment //",
+    "answer_4": "' this is a comment",
+    "right_answer": "/* this is a comment */"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which property is used to change the text color?",
+    "answer_1": "fgcolor",
+    "answer_2": "text-color",
+    "answer_3": "color",
+    "answer_4": "font-color",
+    "right_answer": "color"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "font-style",
+    "answer_4": "text-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How do you make each word start with a capital letter?",
+    "answer_1": "text-transform:capitalize-all",
+    "answer_2": "text-transform:uppercase",
+    "answer_3": "text-transform:capitalize",
+    "answer_4": "text-transform:lowercase",
+    "right_answer": "text-transform:capitalize"
+  },
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Colorful Style Sheets",
+    "answer_3": "Computer Style Sheets",
+    "answer_4": "Cascading Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Where is the correct place to refer to an external style sheet?",
+    "answer_1": "In the <head> section",
+    "answer_2": "At the footer of the document",
+    "answer_3": "In the <body> section",
+    "answer_4": "At the end of the document",
+    "right_answer": "In the <head> section"
+  },
+  {
+    "title": "Which is the correct CSS syntax?",
+    "answer_1": "{body;color:black;}",
+    "answer_2": "body {color: black;}",
+    "answer_3": "{body:color=black;}",
+    "answer_4": "body:color=black;",
+    "right_answer": "body {color: black;}"
+  },
+  {
+    "title": "Which one is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "background-color",
+    "answer_3": "color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "How do you add a background color for all <h1> elements?",
+    "answer_1": "h1.all {background-color:#FFFFFF;}",
+    "answer_2": "h1::all {background-color:#FFFFFF;}",
+    "answer_3": "h1 {background-color:#FFFFFF;}",
+    "answer_4": "all.h1 {background-color:#FFFFFF;}",
+    "right_answer": "h1 {background-color:#FFFFFF;}"
+  },
+  {
+    "title": "make all the <p> elements bold",
+    "answer_1": "p: {font-weight:bold;}",
+    "answer_2": "p {text-size:bold;}",
+    "answer_3": "p {font-weight:bold;}  ",
+    "answer_4": "p{bold:bold;}",
+    "right_answer": "p {font-weight:bold;}"
+  },
+  {
+    "title": "How do you display hyperlinks without an underline?",
+    "answer_1": "a {underline:none;}",
+    "answer_2": "a {decoration:no-underline;}",
+    "answer_3": "a {text-decoration:none;}",
+    "answer_4": "a {text-decoration:no-underline;}",
+    "right_answer": "a {text-decoration:none;}"
+  },
+  {
+    "title": "How do you make each word start with a capital letter?",
+    "answer_1": "text-transform:capitalize",
+    "answer_2": "You can't do that with CSS",
+    "answer_3": "text-style:capitalize",
+    "answer_4": "transform:capitalize",
+    "right_answer": "text-transform:capitalize"
+  },
+  {
+    "title": "Which property is used to change the font for element?",
+    "answer_1": "font-style",
+    "answer_2": "font-wieght",
+    "answer_3": "font-family",
+    "answer_4": "font-size",
+    "right_answer": "font-family"
+  },
+  {
+    "title": "How do you make the text bold?",
+    "answer_1": "style:bold;",
+    "answer_2": "font-weight:bold;",
+    "answer_3": "font:bold;",
+    "answer_4": "font:beld;",
+    "right_answer": "font-weight:bold;"
+  },
+  {
+    "title": "input field must be filled out",
+    "answer_1": "placeholder",
+    "answer_2": "required",
+    "answer_3": "value",
+    "answer_4": "name",
+    "right_answer": "required"
+  },
+  {
+    "title": "specify the maximum length of an input field",
+    "answer_1": "length",
+    "answer_2": "max",
+    "answer_3": "maxlength",
+    "answer_4": "size",
+    "right_answer": "maxlength"
+  },
+  {
+    "title": "specify the minimum length of an input field?",
+    "answer_1": "length",
+    "answer_2": "min",
+    "answer_3": "minlength",
+    "answer_4": "size",
+    "right_answer": "minlength"
+  },
+  {
+    "title": "specify the type of an input field?",
+    "answer_1": "input",
+    "answer_2": "field",
+    "answer_3": "type",
+    "answer_4": "name",
+    "right_answer": "type"
+  },
+  {
+    "title": "specify the name of an input field?",
+    "answer_1": "type",
+    "answer_2": "input",
+    "answer_3": "name",
+    "answer_4": "field",
+    "right_answer": "name"
+  },
+  {
+    "title": "specify the value of an input field?",
+    "answer_1": "name",
+    "answer_2": "type",
+    "answer_3": "value",
+    "answer_4": "input",
+    "right_answer": "value"
+  },
+  {
+    "title": "specify the placeholder text of an input field?",
+    "answer_1": "value",
+    "answer_2": "name",
+    "answer_3": "placeholder",
+    "answer_4": "type",
+    "right_answer": "placeholder"
+  },
+  {
+    "title": "Which HTML tag is used to define a button?",
+    "answer_1": "<input>",
+    "answer_2": "<form>",
+    "answer_3": "<button>",
+    "answer_4": "<fieldset>",
+    "right_answer": "<button>"
+  },
+  {
+    "title": "specify the action of a form?",
+    "answer_1": "method",
+    "answer_2": "name",
+    "answer_3": "action",
+    "answer_4": "type",
+    "right_answer": "action"
+  },
+  {
+    "title": "Which property is used to change the font of an element?",
+    "answer_1": "font-style",
+    "answer_2": "font-weight",
+    "answer_3": "font-family",
+    "answer_4": "font-size",
+    "right_answer": "font-family"
+  },
+  {
+    "title": "add space between the border and the content of an element?",
+    "answer_1": "margin",
+    "answer_2": "padding",
+    "answer_3": "border-spacing",
+    "answer_4": "spacing",
+    "right_answer": "padding"
+  }
+]

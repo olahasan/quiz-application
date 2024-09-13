@@ -1,0 +1,242 @@
+[
+  {
+    "title": "What is the purpose of the <meta> in HTML?",
+    "answer_1": "To define metadata about an HTML document",
+    "answer_2": "To create a link to an external stylesheet",
+    "answer_3": "To embed an image",
+    "answer_4": "To create a table",
+    "right_answer": "To define metadata about an HTML document"
+  },
+  {
+    "title": "Which attribute is used to specify the URL of an image",
+    "answer_1": "src",
+    "answer_2": "href",
+    "answer_3": "link",
+    "answer_4": "url",
+    "right_answer": "src"
+  },
+  {
+    "title": "What does the <canvas> element in HTML5 do?",
+    "answer_1": "Draw graphics on the fly via JavaScript",
+    "answer_2": "Embed a video",
+    "answer_3": "Create a form",
+    "answer_4": "Link to an external stylesheet",
+    "right_answer": "Draw graphics on the fly via JavaScript"
+  },
+  {
+    "title": "Which one is used to specify an alternate text for an image?",
+    "answer_1": "alt",
+    "answer_2": "title",
+    "answer_3": "src",
+    "answer_4": "href",
+    "right_answer": "alt"
+  },
+  {
+    "title": "What is the correct HTML element for playing audio files?",
+    "answer_1": "<audio>",
+    "answer_2": "<sound>",
+    "answer_3": "<music>",
+    "answer_4": "<play>",
+    "right_answer": "<audio>"
+  },
+  {
+    "title": "Which HTML element is used to define a navigation link?",
+    "answer_1": "<nav>",
+    "answer_2": "<link>",
+    "answer_3": "<navigate>",
+    "answer_4": "<a>",
+    "right_answer": "<nav>"
+  },
+  {
+    "title": "Which attribute is used to specify the character encoding?",
+    "answer_1": "charset",
+    "answer_2": "encoding",
+    "answer_3": "char",
+    "answer_4": "code",
+    "right_answer": "charset"
+  },
+  {
+    "title": "What is the purpose of the <figure> element in HTML5?",
+    "answer_1": "To group media content with a caption",
+    "answer_2": "To create a form",
+    "answer_3": "To define a section",
+    "answer_4": "To embed a video",
+    "right_answer": "To group media content with a caption"
+  },
+  {
+    "title": "Which HTML element is used to define a section",
+    "answer_1": "<section>",
+    "answer_2": "<div>",
+    "answer_3": "<article>",
+    "answer_4": "<header>",
+    "right_answer": "<section>"
+  },
+  {
+    "title": "What is the correct element for inserting a line break?",
+    "answer_1": "<br>",
+    "answer_2": "<lb>",
+    "answer_3": "<break>",
+    "answer_4": "<line>",
+    "right_answer": "<br>"
+  },
+  {
+    "title": "Which element is used to define a block of navigation links?",
+    "answer_1": "<nav>",
+    "answer_2": "<ul>",
+    "answer_3": "<div>",
+    "answer_4": "<section>",
+    "right_answer": "<nav>"
+  },
+  {
+    "title": "Which HTML element is used to define a table header?",
+    "answer_1": "<th>",
+    "answer_2": "<thead>",
+    "answer_3": "<header>",
+    "answer_4": "<table-header>",
+    "right_answer": "<th>"
+  },
+  {
+    "title": "Which HTML element is used to define a table row?",
+    "answer_1": "<tr>",
+    "answer_2": "<row>",
+    "answer_3": "<table-row>",
+    "answer_4": "<trow>",
+    "right_answer": "<tr>"
+  },
+  {
+    "title": "Which HTML element is used to define a table cell?",
+    "answer_1": "<td>",
+    "answer_2": "<cell>",
+    "answer_3": "<table-cell>",
+    "answer_4": "<tcell>",
+    "right_answer": "<td>"
+  },
+  {
+    "title": "Which HTML element is used to define a table footer?",
+    "answer_1": "<tfoot>",
+    "answer_2": "<footer>",
+    "answer_3": "<table-footer>",
+    "answer_4": "<tfooter>",
+    "right_answer": "<tfoot>"
+  },
+  {
+    "title": "Which HTML element is used to define a table body?",
+    "answer_1": "<thbody>",
+    "answer_2": "<body>",
+    "answer_3": "<table-body>",
+    "answer_4": "<tbody>",
+    "right_answer": "<tbody>"
+  },
+  {
+    "title": "Which element is used to define a table caption?",
+    "answer_1": "<caption>",
+    "answer_2": "<title>",
+    "answer_3": "<table-caption>",
+    "answer_4": "<cap>",
+    "right_answer": "<caption>"
+  },
+  {
+    "title": "Which HTML element is used to define a form?",
+    "answer_1": "<form>",
+    "answer_2": "<input>",
+    "answer_3": "<form-element>",
+    "answer_4": "<form-tag>",
+    "right_answer": "<form>"
+  },
+  {
+    "title": "Which HTML element is used to define an input field?",
+    "answer_1": "<field>",
+    "answer_2": "<input-field>",
+    "answer_3": "<input>",
+    "answer_4": "<form-input>",
+    "right_answer": "<input>"
+  },
+  {
+    "title": "Which HTML element is used to define a button?",
+    "answer_1": "<btn>",
+    "answer_2": "<button>",
+    "answer_3": "<input>",
+    "answer_4": "<form-button>",
+    "right_answer": "<button>"
+  },
+  {
+    "title": "Which one is used to define a label for an input field?",
+    "answer_1": "<input-label>",
+    "answer_2": "<label>",
+    "answer_3": "<form-label>",
+    "answer_4": "<lbl>",
+    "right_answer": "<label>"
+  },
+  {
+    "title": "Which HTML element is used to define a dropdown list?",
+    "answer_1": "<dropdown>",
+    "answer_2": "<select>",
+    "answer_3": "<list>",
+    "answer_4": "<option>",
+    "right_answer": "<select>"
+  },
+  {
+    "title": "Which one is used to define an option in a dropdown list?",
+    "answer_1": "<select-option>",
+    "answer_2": "<option>",
+    "answer_3": "<dropdown-option>",
+    "answer_4": "<opt>",
+    "right_answer": "<option>"
+  },
+  {
+    "title": "Which HTML element is used to define a text area?",
+    "answer_1": "<input-text>",
+    "answer_2": "<text>",
+    "answer_3": "<textarea>",
+    "answer_4": "<txt>",
+    "right_answer": "<textarea>"
+  },
+  {
+    "title": "Which HTML element is used to define a checkbox?",
+    "answer_1": "<checkbox>",
+    "answer_2": "<check>",
+    "answer_3": "<input type='checkbox'>",
+    "answer_4": "<box>",
+    "right_answer": "<input type='checkbox'>"
+  },
+  {
+    "title": "Which HTML element is used to define a radio button?",
+    "answer_1": "<radio>",
+    "answer_2": "<input type='radio'>",
+    "answer_3": "<button>",
+    "answer_4": "<option>",
+    "right_answer": "<input type='radio'>"
+  },
+  {
+    "title": "Which element is used to define a file input field?",
+    "answer_1": "<file>",
+    "answer_2": "<input-file>",
+    "answer_3": "<input type='file'>",
+    "answer_4": "<file-input>",
+    "right_answer": "<input type='file'>"
+  },
+  {
+    "title": "Which element is used to define a hidden input field?",
+    "answer_1": "<hidden>",
+    "answer_2": "<input-hidden>",
+    "answer_3": "<input type='hidden'>",
+    "answer_4": "<hidden-input>",
+    "right_answer": "<input type='hidden'>"
+  },
+  {
+    "title": "Which element is used to define a password input field?",
+    "answer_1": "<password>",
+    "answer_2": "<input-password>",
+    "answer_3": "<input type='password'>",
+    "answer_4": "<pwd>",
+    "right_answer": "<input type='password'>"
+  },
+  {
+    "title": "Which element is used to define a dropdown list?",
+    "answer_1": "<dropdown>",
+    "answer_2": "<list>",
+    "answer_3": "<select>",
+    "answer_4": "<option>",
+    "right_answer": "<select>"
+  }
+]

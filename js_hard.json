@@ -1,0 +1,186 @@
+[
+  {
+    "title": "What is the difference between '==' and '===' in JS?",
+    "answer_1": "'==' compares both value and type, '===' compares only value.",
+    "answer_2": "'==' compares only value, '===' compares both value and type.",
+    "answer_3": "'==' compares only type, '===' compares only value.",
+    "answer_4": "'==' compares both value and type, '===' compares only type.",
+    "right_answer": "'==' compares only value, '===' compares both value and type."
+  },
+  {
+    "title": "What is the purpose of the 'this' keyword in JS?",
+    "answer_1": "It refers to the global object.",
+    "answer_2": "It refers to the current object.",
+    "answer_3": "It refers to the parent object.",
+    "answer_4": "It refers to the previous object.",
+    "right_answer": "It refers to the current object."
+  },
+  {
+    "title": "What is the difference between 'let' and 'var' in JS?",
+    "answer_1": "'let' is function-scoped, 'var' is block-scoped.",
+    "answer_2": "'let' is block-scoped, 'var' is function-scoped.",
+    "answer_3": "'let' is global-scoped, 'var' is block-scoped.",
+    "answer_4": "'let' is block-scoped, 'var' is global-scoped.",
+    "right_answer": "'let' is block-scoped, 'var' is function-scoped."
+  },
+  {
+    "title": "What is the purpose of the 'async' keyword in JS?",
+    "answer_1": "To declare a function that runs immediately.",
+    "answer_2": "To declare a function that runs synchronously.",
+    "answer_3": "To declare a function that returns a promise.",
+    "answer_4": "To declare a function that does not return a value.",
+    "right_answer": "To declare a function that returns a promise."
+  },
+  {
+    "title": "What is the difference between 'null' and 'undefined' in JS?",
+    "answer_1": "'null'= a variable has been declared but not assigned,'undefined' is an assigned value.",
+    "answer_2": "'null'= assigned value, 'undefined'= a variable has been declared but not assigned.",
+    "answer_3": "'null' is a type of object, 'undefined' is a type of function.",
+    "answer_4": "'null' is a type of function, 'undefined' is a type of object.",
+    "right_answer": "'null'= assigned value, 'undefined'= a variable has been declared but not assigned."
+  },
+  {
+    "title": "What is the purpose of the 'bind' method in JS?",
+    "answer_1": "To create a new string with a specific 'this' value.",
+    "answer_2": "To create a new object with a specific 'this' value.",
+    "answer_3": "To create a new array with a specific 'this' value.",
+    "answer_4": "To create a new function with a specific 'this' value.",
+    "right_answer": "To create a new function with a specific 'this' value."
+  },
+  {
+    "title": "What is the purpose of the 'Promise' object in JS?",
+    "answer_1": "To handle asynchronous operations.",
+    "answer_2": "To handle synchronous operations.",
+    "answer_3": "To handle mathematical operations.",
+    "answer_4": "To handle string operations.",
+    "right_answer": "To handle asynchronous operations."
+  },
+  {
+    "title": "How do you declare a JS variable?",
+    "answer_1": "declare myVariable;",
+    "answer_2": "variable myVariable;",
+    "answer_3": "v myVariable;",
+    "answer_4": "var myVariable;",
+    "right_answer": "var myVariable;"
+  },
+  {
+    "title": "Which operator is used to assign a value to a variable?",
+    "answer_1": "*",
+    "answer_2": "=",
+    "answer_3": "-",
+    "answer_4": "+",
+    "right_answer": "="
+  },
+  {
+    "title": "What is the correct way to write a JS array?",
+    "answer_1": "var colors = 'red', 'green', 'blue'",
+    "answer_2": "var colors = (1:'red', 2:'green', 3:'blue')",
+    "answer_3": "var colors = ['red', 'green', 'blue']",
+    "answer_4": "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')",
+    "right_answer": "var colors = ['red', 'green', 'blue']"
+  },
+  {
+    "title": "How do you write a comment in JS?",
+    "answer_1": "<!-- This is a comment -->",
+    "answer_2": "' This is a comment",
+    "answer_3": "// This is a comment",
+    "answer_4": "# This is a comment",
+    "right_answer": "// This is a comment"
+  },
+  {
+    "title": "find the number with the lowest value of x and y",
+    "answer_1": "Math.floor(x, y)",
+    "answer_2": "Math.low(x, y)",
+    "answer_3": "Math.min(x, y)",
+    "answer_4": "Math.small(x, y)",
+    "right_answer": "Math.min(x, y)"
+  },
+  {
+    "title": "How do you create an object in JS?",
+    "answer_1": "var obj = [];",
+    "answer_2": "var obj = {};",
+    "answer_3": "var obj = ();",
+    "answer_4": "var obj = <>;",
+    "right_answer": "var obj = {};"
+  },
+  {
+    "title": "How do you add a property to an object in JS?",
+    "answer_1": "obj->property = value; ",
+    "answer_2": "obj.property = value;",
+    "answer_3": "obj.property == value;",
+    "answer_4": "obj.property : value;",
+    "right_answer": "obj.property = value;"
+  },
+  {
+    "title": "How do you check if a variable is an array in JS?",
+    "answer_1": "Array.isArray(variable)",
+    "answer_2": "variable.isArray()",
+    "answer_3": "Array(variable)",
+    "answer_4": "isArray(variable)",
+    "right_answer": "Array.isArray(variable)"
+  },
+  {
+    "title": "How do you convert a string to a number in JS?",
+    "answer_1": "Number('string')",
+    "answer_2": "parseInt('string')",
+    "answer_3": "parseFloat('string')",
+    "answer_4": "All of the above",
+    "right_answer": "All of the above"
+  },
+  {
+    "title": "How do you remove the last element from an array in JS?",
+    "answer_1": "array.remove()",
+    "answer_2": "array.pop()",
+    "answer_3": "array.delete()",
+    "answer_4": "array.shift()",
+    "right_answer": "array.pop()"
+  },
+  {
+    "title": "How to external script called 'script.js'?",
+    "answer_1": "<script href='script.js'>",
+    "answer_2": "<script name='script.js'>",
+    "answer_3": "<script src='script.js'>",
+    "answer_4": "<script file='script.js'>",
+    "right_answer": "<script src='script.js'>"
+  },
+  {
+    "title": "How do you write 'Hello World' in an alert box?",
+    "answer_1": "msgBox('Hello World');",
+    "answer_2": "alertBox('Hello World');",
+    "answer_3": "msg('Hello World');",
+    "answer_4": "alert('Hello World');",
+    "right_answer": "alert('Hello World');"
+  },
+  {
+    "title": "How do you create a function in JS?",
+    "answer_1": "function = myFunction()",
+    "answer_2": "function myFunction()",
+    "answer_3": "function:myFunction()",
+    "answer_4": "function => myFunction()",
+    "right_answer": "function myFunction()"
+  },
+  {
+    "title": "How do you call a function named 'myFunction'?",
+    "answer_1": "call myFunction()",
+    "answer_2": "myFunction()",
+    "answer_3": "call function myFunction()",
+    "answer_4": "execute myFunction()",
+    "right_answer": "myFunction()"
+  },
+  {
+    "title": "How do you write an 'if' statement in JS?",
+    "answer_1": "if i == 5 then",
+    "answer_2": "if (i == 5)",
+    "answer_3": "if i = 5",
+    "answer_4": "if i == 5",
+    "right_answer": "if (i == 5)"
+  },
+  {
+    "title": "How does a 'for' loop start?",
+    "answer_1": "for (i = 0; i <= 5)",
+    "answer_2": "for (i <= 5; i++)",
+    "answer_3": "for i = 1 to 5",
+    "answer_4": "for (i = 0; i <= 5; i++)",
+    "right_answer": "for (i = 0; i <= 5; i++)"
+  }
+]

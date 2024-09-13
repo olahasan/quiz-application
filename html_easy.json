@@ -1,0 +1,234 @@
+[
+  {
+    "title": "Why We Use <br> Element?",
+    "answer_1": "To Make Text Bold",
+    "answer_2": "To Make Text Italic",
+    "answer_3": "To Add Breakline",
+    "answer_4": "To Create Horizontal Line",
+    "right_answer": "To Add Breakline"
+  },
+  {
+    "title": "Is <img> Element Has Attribute href",
+    "answer_1": "Yes",
+    "answer_2": "No Its For Anchor Tag <a>",
+    "answer_3": "All Elements Has This Attribute",
+    "answer_4": "Answer 1 And 3 Is Right",
+    "right_answer": "No Its For Anchor Tag <a>"
+  },
+  {
+    "title": "How Can We Make Element Text Bold",
+    "answer_1": "Putting It Inside <b> Tag",
+    "answer_2": "Putting It Inside <strong> Tag",
+    "answer_3": "Customizing It With Font-Weight Property In CSS",
+    "answer_4": "All Answers Is Right",
+    "right_answer": "All Answers Is Right"
+  },
+  {
+    "title": "What Is The Right Hierarchy For Creating Part Of Page",
+    "answer_1": "<h2>  <p>  <h1>  <p>  <h3>  <p>  <img>",
+    "answer_2": "<h1>  <p>  <h3>  <p>  <h2>  <p>  <img>",
+    "answer_3": "<h2>  <p>  <h3>  <p>  <h1>  <p>  <img>",
+    "answer_4": "All Solutions Is Wrong",
+    "right_answer": "All Solutions Is Wrong"
+  },
+  {
+    "title": "How Can We Include External Page Inside HTML Page",
+    "answer_1": "By Using Include in HTML",
+    "answer_2": "By Using Load In HTML",
+    "answer_3": "By Using iFrame Tag",
+    "answer_4": "All Solutions Is Wrong",
+    "right_answer": "By Using iFrame Tag"
+  },
+  {
+    "title": "What Is The Tag That Not Exists in HTML",
+    "answer_1": "<object>",
+    "answer_2": "<basefont>",
+    "answer_3": "<abbr>",
+    "answer_4": "All Tags Is Exists in HTML",
+    "right_answer": "All Tags Is Exists in HTML"
+  },
+  {
+    "title": "How We Specify Document Type Of HTML5 Page",
+    "answer_1": "<DOCTYPE html>",
+    "answer_2": "<DOCTYPE html5>",
+    "answer_3": "<!DOCTYPE html5>",
+    "answer_4": "<!DOCTYPE html>",
+    "right_answer": "<!DOCTYPE html>"
+  },
+  {
+    "title": "What's The Element That is Not Exists in HTML5 Semantics",
+    "answer_1": "<article>",
+    "answer_2": "<section>",
+    "answer_3": "<blockquote>",
+    "answer_4": "<aside>",
+    "right_answer": "<blockquote>"
+  },
+  {
+    "title": "In HTML Can We Use This Way To Add Attributes",
+    "answer_1": "<div class='class-name'>",
+    "answer_2": "<div class=class-name>",
+    "answer_3": "<div class=\"class-name\">",
+    "answer_4": "All Is Right",
+    "right_answer": "All Is Right"
+  },
+  {
+    "title": "What does HTML stand for?",
+    "answer_1": "Home Tool Markup Language",
+    "answer_2": "Hyper Text Markup Language",
+    "answer_3": "Hyperlinks and Text Markup Language",
+    "answer_4": "Hyperlinking Text Markup Language",
+    "right_answer": "Hyper Text Markup Language"
+  },
+  {
+    "title": "Which HTML attribute that used to define inline styles?",
+    "answer_1": "class",
+    "answer_2": "style",
+    "answer_3": "font",
+    "answer_4": "styles",
+    "right_answer": "style"
+  },
+  {
+    "title": "Which HTML element that used to specify a footer",
+    "answer_1": "<footer>",
+    "answer_2": "<bottom>",
+    "answer_3": "<section>",
+    "answer_4": "<foot>",
+    "right_answer": "<footer>"
+  },
+  {
+    "title": "Which HTML element that used to specify a header",
+    "answer_1": "<head>",
+    "answer_2": "<top>",
+    "answer_3": "<header>",
+    "answer_4": "<section>",
+    "right_answer": "<header>"
+  },
+  {
+    "title": "Which HTML element that used to define important text?",
+    "answer_1": "<strong>",
+    "answer_2": "<important>",
+    "answer_3": "<b>",
+    "answer_4": "<i>",
+    "right_answer": "<strong>"
+  },
+  {
+    "title": "Which HTML element that used emphasized text?",
+    "answer_1": "<em>",
+    "answer_2": "<i>",
+    "answer_3": "<italic>",
+    "answer_4": "<b>",
+    "right_answer": "<em>"
+  },
+  {
+    "title": "Which HTML element that used to define a paragraph?",
+    "answer_1": "<para>",
+    "answer_2": "<paragraph>",
+    "answer_3": "<p>",
+    "answer_4": "<pg>",
+    "right_answer": "<p>"
+  },
+  {
+    "title": "Which HTML element that used to define a hyperlink?",
+    "answer_1": "<link>",
+    "answer_2": "<a>",
+    "answer_3": "<href>",
+    "answer_4": "<hyperlink>",
+    "right_answer": "<a>"
+  },
+  {
+    "title": "Which HTML element that used to define an image?",
+    "answer_1": "<image>",
+    "answer_2": "<img>",
+    "answer_3": "<pic>",
+    "answer_4": "<picture>",
+    "right_answer": "<img>"
+  },
+  {
+    "title": "Which HTML element that used to define a list item?",
+    "answer_1": "<item>",
+    "answer_2": "<list>",
+    "answer_3": "<li>",
+    "answer_4": "<ul>",
+    "right_answer": "<li>"
+  },
+  {
+    "title": "Which HTML element that used to define an ordered list?",
+    "answer_1": "<ul>",
+    "answer_2": "<list>",
+    "answer_3": "<ol>",
+    "answer_4": "<order>",
+    "right_answer": "<ol>"
+  },
+  {
+    "title": "Which HTML element that used to define an unordered list?",
+    "answer_1": "<ol>",
+    "answer_2": "<ul>",
+    "answer_3": "<list>",
+    "answer_4": "<unordered>",
+    "right_answer": "<ul>"
+  },
+  {
+    "title": "Which HTML element that used to define a table?",
+    "answer_1": "<tbl>",
+    "answer_2": "<tab>",
+    "answer_3": "<table>",
+    "answer_4": "<t>",
+    "right_answer": "<table>"
+  },
+  {
+    "title": "Which HTML element that used to define a table row?",
+    "answer_1": "<row>",
+    "answer_2": "<table-row>",
+    "answer_3": "<tr>",
+    "answer_4": "<trow>",
+    "right_answer": "<tr>"
+  },
+  {
+    "title": "Which HTML element that used to define a table cell?",
+    "answer_1": "<cell>",
+    "answer_2": "<table-cell>",
+    "answer_3": "<td>",
+    "answer_4": "<tcell>",
+    "right_answer": "<td>"
+  },
+  {
+    "title": "Which HTML element that used to define a table header?",
+    "answer_1": "<thead>",
+    "answer_2": "<th>",
+    "answer_3": "<header>",
+    "answer_4": "<table-header>",
+    "right_answer": "<th>"
+  },
+  {
+    "title": "Which HTML element that used to define a form?",
+    "answer_1": "<input>",
+    "answer_2": "<form-element>",
+    "answer_3": "<form>",
+    "answer_4": "<form-tag>",
+    "right_answer": "<form>"
+  },
+  {
+    "title": "Which HTML element that used to define an input field?",
+    "answer_1": "<field>",
+    "answer_2": "<input-field>",
+    "answer_3": "<input>",
+    "answer_4": "<form-input>",
+    "right_answer": "<input>"
+  },
+  {
+    "title": "Which HTML element that used to define a button?",
+    "answer_1": "<button>",
+    "answer_2": "<btn>",
+    "answer_3": "<input>",
+    "answer_4": "<form-button>",
+    "right_answer": "<button>"
+  },
+  {
+    "title": "How Can We Make Element Text Bold",
+    "answer_1": "Putting It Inside <b> Tag",
+    "answer_2": "Putting It Inside <strong> Tag",
+    "answer_3": "Customizing It With Font-Weight Property In CSS",
+    "answer_4": "All Answers Is Right",
+    "right_answer": "All Answers Is Right"
+  }
+]

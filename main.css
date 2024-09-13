@@ -1,0 +1,339 @@
+* {
+  box-sizing: border-box;
+}
+*.none {
+  display: none;
+}
+body {
+  font-family: Tahoma, Arial;
+  overflow: hidden;
+}
+.all {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+/* first-screen */
+.first-screen {
+  margin: 20px auto;
+  width: 800px;
+  background-color: #f8f8f8;
+  padding: 15px;
+  position: absolute;
+  transition: transform 0.5s;
+  transform: translateX(0);
+  transform: translateY(10%);
+  z-index: 3;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: darkcyan;
+  padding: 15px;
+}
+
+h2.title-app {
+  text-align: center;
+  color: #0075ff;
+  font-size: 35px;
+}
+
+label {
+  margin-left: -4px;
+}
+input:not(:first-of-type) {
+  margin-left: 10px;
+}
+button.ready {
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  background-color: yellow;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0075ff;
+}
+/* start input change shape from circle to square */
+
+/*Hide the circular shape of the inputs*/
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+label {
+  position: relative;
+  padding-left: 25px;
+}
+label::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 1px solid #0075ff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+}
+input[type="radio"]:checked + label::after,
+input[type="radio"]:not(:checked):hover + label::after {
+  content: "";
+  background-color: #0075ff;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+}
+input[type="radio"]:not(:checked):hover + label::after {
+  opacity: 0.2;
+}
+input[type="radio"]:checked + label {
+  color: #0075ff;
+}
+
+/* end input change shape from circle to square */
+
+/* second-screen */
+.second-screen {
+  margin: 20px auto;
+  width: 800px;
+  height: 441.09px;
+  background-color: #f8f8f8;
+  padding: 30px;
+  position: absolute;
+  transition: transform 0.5s;
+  transform: translateX(0);
+  transform: translateY(10%);
+  z-index: 2;
+}
+
+p.info {
+  font-size: 22px;
+  text-align: center;
+  margin: 20px 0 40px 0;
+  margin-top: 0;
+  font-weight: 700;
+}
+
+p.info span {
+  color: #0075ff;
+  font-weight: 900;
+}
+
+.info {
+  font-size: 25px;
+  margin-bottom: 45px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+span.good-luck {
+  font-size: 30px;
+  font-weight: 900;
+  display: block;
+  color: #0075ff;
+}
+
+button.start {
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  background-color: yellow;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0075ff;
+  margin-top: 10px;
+}
+
+/* third-screen */
+.third-screen {
+  margin: 20px auto;
+  width: 800px;
+  height: 441.09px;
+  padding: 30px;
+  position: absolute;
+  transition: transform 2.5s;
+  transform: translateX(0);
+  z-index: 1;
+  transform: translateY(10%);
+}
+video.video-background {
+  max-width: 98%;
+}
+
+.quiz-app {
+  margin: 20px auto;
+  width: 800px;
+  background-color: #f8f8f8;
+  padding: 15px;
+  transform: translate(0, 630px);
+  transition: transform 1s;
+}
+
+/* quiz-info */
+.quiz-app .quiz-info {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+}
+.quiz-app .quiz-info .category {
+  flex: 1;
+}
+
+.quiz-app .quiz-info .category span.Test-Info {
+  font-weight: 700;
+  color: #0075ff;
+  font-size: 21px;
+}
+.quiz-app .quiz-info .category span.choseenLang,
+.quiz-app .quiz-info .category span.choseenNum,
+.quiz-app .quiz-info .category span.choseenLevel {
+  font-weight: 700;
+}
+
+.quiz-app .quiz-info .count {
+  flex: 1;
+  text-align: right;
+}
+
+/* quiz-area */
+.quiz-app .quiz-area {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 15px;
+}
+.quiz-app .quiz-area h2 {
+  margin: 0;
+}
+
+/* answers-area */
+.quiz-app .answers-area {
+  background-color: #fff;
+  padding: 0 20px 20px;
+}
+.quiz-app .answers-area .answer {
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+.quiz-app .answers-area .answer:not(:last-child) {
+  border-bottom: 1px solid #dfdfdf;
+}
+.quiz-app .answers-area .answer input[type="Radio"]:checked + label {
+  color: #0075ff;
+}
+.quiz-app .answers-area .answer label {
+  cursor: pointer;
+  font-weight: bold;
+  color: #777;
+  font-size: 14px;
+  margin-left: 5px;
+  position: relative;
+  top: -1px;
+}
+
+/* submit-button */
+.quiz-app .submit-button {
+  background-color: #0075ff;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 20px auto;
+}
+.quiz-app .submit-button:focus {
+  outline: none;
+}
+
+/* bullets */
+.quiz-app .bullets {
+  border-top: 1px solid #dfdfdf;
+  background-color: #fff;
+  display: flex;
+  padding: 20px;
+}
+.quiz-app .bullets .spans {
+  flex: 1;
+  display: flex;
+}
+.quiz-app .bullets .spans span {
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.quiz-app .bullets .spans span.on {
+  background-color: #0075ff;
+}
+
+/* results */
+.quiz-app .results {
+  padding: 30px;
+  background-color: white;
+  margin-top: 10px;
+  text-align: center;
+  height: 433.09px;
+}
+
+.quiz-app .results .bad {
+  color: #dc0a0a;
+}
+.quiz-app .results .good {
+  color: #009688;
+}
+.quiz-app .results .perfect {
+  color: #0075ff;
+}
+.quiz-app .results .bad,
+.quiz-app .results .good,
+.quiz-app .results .perfect {
+  font-size: 25px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.quiz-app .results p.question {
+  font-size: 40px;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.quiz-app .results .btn-container {
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.quiz-app .results .btn-container .btn-yes,
+.quiz-app .results .btn-container .btn-no {
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  color: cornflowerblue;
+  font-weight: bold;
+}
+.quiz-app .results .btn-container .btn-no {
+  margin-left: 10px;
+}
+p.thanks {
+  font-size: 105px;
+  color: #0075ff;
+  letter-spacing: 10px;
+}

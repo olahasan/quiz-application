@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- next meta, tells the browser to use the most modern version, standards-compliant rendering mode available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="first-screen">
+        <h2 class="title-app">Test Your Knowledge:</h2>
+
+        <fieldset class="Categories">
+          <legend>Category:</legend>
+          <input
+            type="radio"
+            name="quiz-category"
+            value="html"
+            id="html"
+            required
+          />
+          <label for="html">HTML</label>
+
+          <input type="radio" name="quiz-category" value="css" id="css" />
+          <label for="css">CSS</label>
+
+          <input type="radio" name="quiz-category" value="js" id="js" />
+          <label for="js">JS</label>
+        </fieldset>
+
+        <fieldset class="number-question">
+          <legend>How many questions do you want to answer:</legend>
+          <input
+            type="radio"
+            name="number-question"
+            value="4"
+            id="four"
+            required
+          />
+          <label for="four">4</label>
+
+          <input type="radio" name="number-question" value="6" id="six" />
+          <label for="six">6</label>
+
+          <input type="radio" name="number-question" value="10" id="ten" />
+          <label for="ten">10</label>
+        </fieldset>
+
+        <fieldset class="Difficulty-level">
+          <legend>Difficulty level:</legend>
+          <input
+            type="radio"
+            name="Difficulty-level"
+            value="easy"
+            id="easy-level"
+            required
+          />
+          <label for="easy-level">Easy</label>
+
+          <input
+            type="radio"
+            name="Difficulty-level"
+            value="Intermediate "
+            id="Intermediate -level"
+          />
+          <label for="Intermediate -level">Intermediate</label>
+
+          <input
+            type="radio"
+            name="Difficulty-level"
+            value="hard"
+            id="hard-level"
+          />
+          <label for="hard-level">Hard</label>
+        </fieldset>
+
+        <button class="ready">READY</button>
+
+        <p class="error-message" style="color: red; display: none">
+          Please select all required options before starting the quiz.
+        </p>
+      </div>
+
+      <div class="second-screen">
+        <p class="info">
+          You have chosen <span class="num"></span> question from the
+          <span class="difficult"></span> level in
+          <span class="lang"></span>
+        </p>
+        <div class="info">
+          <ul>
+            <li>You will have 30 second to finish each question.</li>
+            <li>If you repeat the Test you will got another questions.</li>
+            <li>
+              If the time runs out and you do not choose an answer, it will be
+              considered a wrong answer and the next question will start
+              automatically.
+            </li>
+          </ul>
+        </div>
+        <span class="good-luck">Good luck</span>
+        <button class="start">START</button>
+      </div>
+
+      <div class="third-screen">
+        <video id="myVideo" class="video-background" muted loop>
+          <source src="video/854232-hd_1920_1080_24fps.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <audio class="roctAudio" controls hidden preload="auto">
+          <source
+            src="audio/mixkit-sci-fi-rocket-afterburner-1724.mp3"
+            type="audio/mp3"
+          />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+
+    <div class="quiz-app">
+      <div class="quiz-info">
+        <div class="category">
+          <span class="Test-Info">Test-Info: </span>
+          <span class="choseenLang"></span>, <span class="choseenNum"></span>,
+          <span class="choseenLevel"></span>
+        </div>
+        <div class="count">Questions Count: <span></span></div>
+      </div>
+
+      <div class="quiz-area"></div>
+
+      <div class="answers-area"></div>
+
+      <button class="submit-button">Submit Answer</button>
+
+      <div class="bullets">
+        <div class="spans"></div>
+
+        <div class="countdown"></div>
+      </div>
+
+      <div class="results none"></div>
+    </div>
+
+    <audio
+      src="audio/mixkit-hard-pop-click-2364.mp3"
+      class="pop-audio"
+      controls
+      hidden
+    ></audio>
+
+    <script src="main.js"></script>
+  </body>
+</html>

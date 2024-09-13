@@ -1,0 +1,251 @@
+[
+  {
+    "title": "What is the purpose of the z-index property in CSS?",
+    "answer_1": "To specify the opacity of an element.",
+    "answer_2": "To specify the position of an element.",
+    "answer_3": "To specify the stack order of an element.",
+    "answer_4": "To specify the display type of an element.",
+    "right_answer": "To specify the stack order of an element."
+  },
+  {
+    "title": "How do you create a flex container in CSS?",
+    "answer_1": "display: block;",
+    "answer_2": "display: inline-flex;",
+    "answer_3": "display: flex;",
+    "answer_4": "display: flex-container;",
+    "right_answer": "display: flex;"
+  },
+  {
+    "title": "How do you create a CSS grid container?",
+    "answer_1": "display: block;",
+    "answer_2": "display: inline-grid;",
+    "answer_3": "display: grid;",
+    "answer_4": "display: grid-container;",
+    "right_answer": "display: grid;"
+  },
+  {
+    "title": "What is the purpose of the gap property in CSS Grid?",
+    "answer_1": "To define gap between rows.",
+    "answer_2": "To define gap between columns.",
+    "answer_3": "To define gap between rows and columns.",
+    "answer_4": "To define gap between grid items.",
+    "right_answer": "To define gap between rows and columns."
+  },
+  {
+    "title": "What is the purpose of the box-sizing property in CSS?",
+    "answer_1": "To control size of the box model.",
+    "answer_2": "To control size of the content box.",
+    "answer_3": "To control the total width and height of an element.",
+    "answer_4": "To control size of the padding box.",
+    "right_answer": "To control how total width and height of an element."
+  },
+  {
+    "title": "What is the purpose of the CSS calc() function?",
+    "answer_1": "To calculate the width of an element.",
+    "answer_2": "To calculate the height of an element.",
+    "answer_3": "To perform calculations to determine values.",
+    "answer_4": "To calculate the color of an element.",
+    "right_answer": "To perform calculations to determine values."
+  },
+  {
+    "title": "difference between the nth-child() and nth-of-type()",
+    "answer_1": "nth-child() selects based on siblings, nth-of-type() selects based on all siblings.",
+    "answer_2": "nth-child() selects based on all siblings, nth-of-type() selects based on siblings.",
+    "answer_3": "nth-child() selects based on siblings, nth-of-type() selects based on siblings.",
+    "answer_4": "nth-child() selects based on all siblings, nth-of-type() selects based on all siblings.",
+    "right_answer": "nth-child() selects based on siblings, nth-of-type() selects based on siblings."
+  },
+  {
+    "title": "What is the purpose of the CSS @keyframes rule?",
+    "answer_1": "To define transitions.",
+    "answer_2": "To define transformations.",
+    "answer_3": "To define animations.",
+    "answer_4": "To define keyframes.",
+    "right_answer": "To define animations."
+  },
+
+  {
+    "title": "What is the difference between the CSS grid and flexbox ?",
+    "answer_1": "Grid is one-dimensional,flexbox is two-dimensional .",
+    "answer_2": "Grid is responsive,flexbox is fixed .",
+    "answer_3": "Grid is two-dimensional,flexbox is one-dimensional .",
+    "answer_4": "Grid is fixed,flexbox is responsive .",
+    "right_answer": "Grid is two-dimensional,flexbox is one-dimensional ."
+  },
+  {
+    "title": "What is the purpose of the CSS @media rule?",
+    "answer_1": "To apply styles based on the screen size.",
+    "answer_2": "To apply styles based on the device type.",
+    "answer_3": "To apply styles based on the media.",
+    "answer_4": "To apply styles based on the browser type.",
+    "right_answer": "To apply styles based on the media."
+  },
+  {
+    "title": "What is the purpose of the CSS overflow property?",
+    "answer_1": "To control the size of an element's box.",
+    "answer_2": "To control the position of an element's box.",
+    "answer_3": "To control what happens when content overflows.",
+    "answer_4": "To control the visibility of an element's box.",
+    "right_answer": "To control what happens when content overflows."
+  },
+  {
+    "title": "What is the purpose of the CSS float property?",
+    "answer_1": "To position an element to the top or bottom.",
+    "answer_2": "To position an element to the center.",
+    "answer_3": "To position an element to the left or right.",
+    "answer_4": "To position an element to the middle.",
+    "right_answer": "To position an element to the left or right."
+  },
+  {
+    "title": "Which one is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "background-color",
+    "answer_3": "color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "How do you add a background color for all <h1> elements?",
+    "answer_1": "h1.all {background-color:#FFFFFF;}",
+    "answer_2": "h1::all {background-color:#FFFFFF;}",
+    "answer_3": "h1 {background-color:#FFFFFF;}",
+    "answer_4": "all.h1 {background-color:#FFFFFF;}",
+    "right_answer": "h1 {background-color:#FFFFFF;}"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-style",
+    "answer_2": "text-size",
+    "answer_3": "font-size",
+    "answer_4": "text-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "make all the <p> elements bold",
+    "answer_1": "p: {font-weight:bold;}",
+    "answer_2": "p {text-size:bold;}",
+    "answer_3": "p {font-weight:bold;}  ",
+    "answer_4": "p{bold:bold;}",
+    "right_answer": "p {font-weight:bold;}"
+  },
+  {
+    "title": "How do you display hyperlinks without an underline?",
+    "answer_1": "a {underline:none;}",
+    "answer_2": "a {decoration:no-underline;}",
+    "answer_3": "a {text-decoration:none;}",
+    "answer_4": "a {text-decoration:no-underline;}",
+    "right_answer": "a {text-decoration:none;}"
+  },
+  {
+    "title": "How do you make each word start with a capital letter?",
+    "answer_1": "You can't do that with CSS",
+    "answer_2": "text-style:capitalize",
+    "answer_3": "text-transform:capitalize",
+    "answer_4": "transform:capitalize",
+    "right_answer": "text-transform:capitalize"
+  },
+  {
+    "title": "Which property is used to change the font for element?",
+    "answer_1": "font-style",
+    "answer_2": "font-wieght",
+    "answer_3": "font-family",
+    "answer_4": "font-size",
+    "right_answer": "font-family"
+  },
+  {
+    "title": "How do you make the text bold?",
+    "answer_1": "style:bold;",
+    "answer_2": "font-weight:bold;",
+    "answer_3": "font:bold;",
+    "answer_4": "font:beld;",
+    "right_answer": "font-weight:bold;"
+  },
+  {
+    "title": "input field must be filled out",
+    "answer_1": "placeholder",
+    "answer_2": "value",
+    "answer_3": "required",
+    "answer_4": "name",
+    "right_answer": "required"
+  },
+  {
+    "title": "specify the maximum length of an input field",
+    "answer_1": "length",
+    "answer_2": "max",
+    "answer_3": "maxlength",
+    "answer_4": "size",
+    "right_answer": "maxlength"
+  },
+  {
+    "title": "specify the minimum length of an input field?",
+    "answer_1": "length",
+    "answer_2": "min",
+    "answer_3": "minlength",
+    "answer_4": "size",
+    "right_answer": "minlength"
+  },
+  {
+    "title": "specify the type of an input field?",
+    "answer_1": "input",
+    "answer_2": "field",
+    "answer_3": "type",
+    "answer_4": "name",
+    "right_answer": "type"
+  },
+  {
+    "title": "specify the name of an input field?",
+    "answer_1": "type",
+    "answer_2": "name",
+    "answer_3": "input",
+    "answer_4": "field",
+    "right_answer": "name"
+  },
+  {
+    "title": "specify the value of an input field?",
+    "answer_1": "name",
+    "answer_2": "type",
+    "answer_3": "value",
+    "answer_4": "input",
+    "right_answer": "value"
+  },
+  {
+    "title": "specify the placeholder text of an input field?",
+    "answer_1": "value",
+    "answer_2": "name",
+    "answer_3": "placeholder",
+    "answer_4": "type",
+    "right_answer": "placeholder"
+  },
+  {
+    "title": "Which HTML tag is used to define a button?",
+    "answer_1": "<input>",
+    "answer_2": "<form>",
+    "answer_3": "<button>",
+    "answer_4": "<fieldset>",
+    "right_answer": "<button>"
+  },
+  {
+    "title": "specify the action of a form?",
+    "answer_1": "method",
+    "answer_2": "name",
+    "answer_3": "action",
+    "answer_4": "type",
+    "right_answer": "action"
+  },
+  {
+    "title": "Which property is used to change the font of an element?",
+    "answer_1": "font-style",
+    "answer_2": "font-family",
+    "answer_3": "font-weight",
+    "answer_4": "font-size",
+    "right_answer": "font-family"
+  },
+  {
+    "title": "add space between the border and the content of an element?",
+    "answer_1": "margin",
+    "answer_2": "padding",
+    "answer_3": "border-spacing",
+    "answer_4": "spacing",
+    "right_answer": "padding"
+  }
+]
